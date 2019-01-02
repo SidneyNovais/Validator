@@ -27,7 +27,7 @@ Exemplo:
 
 ```javascript
     validator.setValues([
-      {name: "Email", value: "exemplo@exemplo.com, email: true, required: true},
+      {name: "Email", value: "exemplo@exemplo.com", email: true, required: true},
       {name: "Nome", value: "John", required: true, min: 7}
     ])
   
@@ -40,7 +40,7 @@ assim que o primeiro valor é inválido, ignorando os demais valores passados.
 
 ```javascript
     validator.setValues([
-      {name: "Email", value: "exemplo@exemplo.com, email: true, required: true},
+      {name: "Email", value: "exemplo@exemplo.com", email: true, required: true},
       {name: "Nome", value: "John", required: true, min: 7}
     ]);
     
