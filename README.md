@@ -2,8 +2,6 @@
 Simples validador de dados.
 
 
-Realiza a validação de dados:
-
 # Inicialização
 
 ```javascript
